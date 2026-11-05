@@ -72,3 +72,9 @@ class Graphical_window(customtkinter.CTk):
         self.button_start.grid(row=11, column=0, padx=10)
         self.button_start = customtkinter.CTkButton(self.frame, text="Stop Betting", width=60, command=stop)
         self.button_start.grid(row=11, column=1, padx=10)
+
+
+
+if __name__ == "__main__":
+    app = Graphical_window()
+    app.mainloop()
